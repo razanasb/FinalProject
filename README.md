@@ -1,4 +1,4 @@
-# 🌱 Plant Identification and Care App
+# 🌱 Plant Buddy: Smart Plant Identification and Care Assistant
 
 ## 📋 Table of Contents
 - [Project Overview](#-project-overview)
