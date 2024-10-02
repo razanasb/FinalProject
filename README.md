@@ -15,7 +15,7 @@
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 This project is a web app built using Gradio that helps users identify plants from an image input. After identifying the plant, it provides care instructions and interesting facts. Users can also listen to plant facts in English or Arabic. The app uses Hugging Face models for plant classification, translation, and text-to-speech services for audio playback.
 
@@ -31,7 +31,7 @@ This app is designed for both English and Arabic-speaking users and provides a s
 
 ---
 
-## 📊 Expected Outputs
+## Expected Outputs
 
 1. **Plant Name**: The identified plant’s name (from image or text input).
 2. **Care Instructions**: Tips on how to care for the plant.
@@ -40,7 +40,7 @@ This app is designed for both English and Arabic-speaking users and provides a s
 
 ---
 
-## 🛠 Model Choices and Pipeline Explanations
+## Model Choices and Pipeline Explanations
 
 ### 1. Image Classification
 - **Model**: `umutbozdag/plant-identity`
@@ -61,14 +61,14 @@ This app is designed for both English and Arabic-speaking users and provides a s
 
 ---
 
-## 🌍 Special Measures for Arabic Language Support
+## 🗣️ Special Measures for Arabic Language Support
 
 1. **Translation**: Plant care instructions and facts are automatically translated into Arabic using Hugging Face models.
 2. **Arabic Audio**: The `gTTS` library generates audio in Arabic for plant facts, providing a more interactive experience for Arabic-speaking users.
 
 ---
 
-## 💻 Tech Stack and Dependencies
+## Tech Stack and Dependencies
 
 ### Tech Stack:
 - **Programming Language**: Python
@@ -80,7 +80,7 @@ Install the required libraries:
 ```bash
 pip install transformers gradio gtts
 ```
-### 📖 Usage Instructions
+### Usage Instructions
 Running the App:
 
 Image Input:
@@ -99,12 +99,10 @@ Listen to the audio fact in your selected language.
 ### 🌿 Plant Dictionaries
 The app has built-in dictionaries with plant care instructions and facts. If a plant is unrecognized, the app will provide default messages.
 
-Example: Aloe Vera Image
+Example: 
 
-Care: "Aloe Vera prefers bright, indirect sunlight. Water deeply but infrequently."
-
-Fact: "Aloe Vera is known for its soothing properties and is often used in skincare."
-
+    Rosemary: Water when the top inch of soil is dry. Place in full sun and ensure good drainage.
+    
 You can add more plants by expanding the plant_care_dict and plant_facts_dict.
 
 ### 🤖 Hugging Face Integration
@@ -118,10 +116,9 @@ Helsinki-NLP/opus-mt-en-ar (English to Arabic)
 
 Make sure the app is connected to the internet to access these models during use.
 
-### 🎥 Video Walkthrough
-For a detailed video on how to set up and use the app, watch the Video Walkthrough. 
+### Video Walkthrough
 
-### 🚧 Future Enhancements
+### Future Enhancements
 - Expand Plant Database: Add more plants with care instructions and facts.
 - Improve UI: Make the user interface more engaging and responsive.
 - Additional Language Support: Add more language options beyond English and Arabic.
