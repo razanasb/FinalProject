@@ -117,6 +117,7 @@ Helsinki-NLP/opus-mt-en-ar (English to Arabic)
 Make sure the app is connected to the internet to access these models during use.
 
 ### Video Walkthrough
+https://www.youtube.com/watch?v=W0QNDh5s
 
 ### Future Enhancements
 - Expand Plant Database: Add more plants with care instructions and facts.
